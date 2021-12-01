@@ -1,0 +1,15 @@
+package Mariana.Main.model;
+
+import Mariana.Main.model.sample.Pessoal;
+
+public class Main {
+    public static void Main(String[] args){
+        System.out.println("Pessoal");
+        Pessoal pessoal1 = new Pessoal();
+        pessoal1.setNome("Mariana Beatriz");
+        pessoal1.setTelefone(999577346);
+        pessoal1.setEmail("marianabsgomes@gmail.com");
+        System.out.println();
+
+    }
+}
